@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="app.js" defer></script>
+  <title>ScrollSpy | HTML, CSS & Javascript</title>
+</head>
+<body data-spy="scroll" data-target="#nav-example" data-offset="100" tabindex="0">
+  <header>
+    <nav id="nav-example">
+      <div class="brand">
+        <a href="/">brand</a>
+      </div>
+      <div class="items">
+        <a href="#first" class="active">first</a>
+        <a href="#second">second</a>
+        <a href="#third">third</a>
+        <a href="#fourth">fourth</a>
+        <a href="#fifth">fifth</a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section id="first" class="setion-offset-top">
+      <div class="wrapper">
+        <h1>first</h1>
+        <div class="list-example-container">
+          <div id="list-example" class="list-example-group">
+            <a class="list-group-item active" href="#list-item-1">Item 1</a>
+            <a class="list-group-item" href="#list-item-2">Item 2</a>
+            <a class="list-group-item" href="#list-item-3">Item 3</a>
+            <a class="list-group-item" href="#list-item-4">Item 4</a>
+          </div>
+          <div data-spy="scroll" data-target="#list-example" data-offset="10" class="list-example-items">
+            <h4 id="list-item-1">Item 1</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam perferendis dolores id nesciunt quam optio quia dolorum eum ipsum adipisci eligendi rerum debitis nostrum quaerat inventore, consectetur assumenda vitae sit earum illo reiciendis. Perferendis dolore et earum harum aut deserunt soluta maxime ad, obcaecati repellendus.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus iste velit modi unde nam necessitatibus, esse perspiciatis ullam!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam perferendis dolores id nesciunt quam optio quia dolorum eum ipsum adipisci eligendi rerum debitis nostrum quaerat inventore, consectetur assumenda vitae sit earum illo reiciendis. Perferendis dolore et earum harum aut deserunt soluta maxime ad, obcaecati repellendus.</p>
+            <h4 id="list-item-2">Item 2</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quidem a quibusdam nam, aspernatur hic adipisci corrupti omnis voluptatibus quod saepe quis voluptatum illo iure. Tempora sapiente impedit velit praesentium reprehenderit doloribus cupiditate expedita.</p>
+            <h4 id="list-item-3">Item 3</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus iste velit modi unde nam necessitatibus, esse perspiciatis ullam!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam perferendis dolores id nesciunt quam optio quia dolorum eum ipsum adipisci eligendi rerum debitis nostrum quaerat inventore, consectetur assumenda vitae sit earum illo reiciendis. Perferendis dolore et earum harum aut deserunt soluta maxime ad, obcaecati repellendus.</p>
+            <h4 id="list-item-4">Item 4</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt maxime delectus ipsum laborum in, vero aspernatur omnis hic fuga, ratione aliquid quis eaque deleniti consectetur modi amet eos iste alias, numquam earum quod? Repellendus quisquam blanditiis nisi nesciunt veniam, perspiciatis beatae ratione nihil in voluptatibus! Praesentium temporibus eaque itaque natus amet?</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="second" class="setion-offset-top">
+      <div class="wrapper">
+        <h1>second</h1>
+      </div>
+    </section>
+    <section id="third" class="setion-offset-top">
+      <div class="wrapper">
+        <h1>third</h1>
+      </div>
+    </section>
+    <section id="fourth" class="setion-offset-top">
+      <div class="wrapper">
+        <h1>fourth</h1>
+      </div>
+    </section>
+    <section id="fifth" class="setion-offset-top">
+      <div class="wrapper">
+        <h1>fifth</h1>
+      </div>
+    </section>
+    <section class="setion-offset-top">
+      <div class="wrapper">
+        <h1>seventh</h1>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
